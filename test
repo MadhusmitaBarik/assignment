@@ -1,1 +1,17 @@
+/*
+import java.io.*;
+class test{
+    public static void main(String[]args)throws IOException{
+        Console c=System.console();
+        System.out.println("enter uid");
+        String uid=c.readLine();
+        System.out.println(uid);
+
+        System.out.println("Enter password");
+        char []pwd=c.readPassword();
+        for (char d:pwd){
+            System.out.println(d);
+        }
+    }
+}
 
